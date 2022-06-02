@@ -65,7 +65,7 @@ public class GeneratorCodeConfig {
         dsc.setUrl("jdbc:mysql://localhost:3306/2022?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("Cc980507");
+        dsc.setPassword("1qaz!QAZ");
         mpg.setDataSource(dsc);
 
         // 包配置

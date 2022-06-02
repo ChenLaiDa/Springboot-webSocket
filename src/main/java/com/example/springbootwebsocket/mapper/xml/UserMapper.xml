@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--命名空间 - 绑定一个对应的Mapper接口-->
+<mapper namespace="com.example.springbootwebsocket.mapper.UserMapper">
+
+    <select id="getUserByUserName" resultType="com.example.springbootwebsocket.model.entity.User">
+        select * from websocket_user where username=#{username}
+    </select>
+    <select id="getUserById" resultType="com.example.springbootwebsocket.model.entity.User">
+        select * from websocket_user where id=#{userId}
+    </select>
+</mapper>
